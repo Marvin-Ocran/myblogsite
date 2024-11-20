@@ -58,4 +58,7 @@ footer{
       text-align: left; 
       border-radius: 5px;
     }
+    .navbar a.active {
+        background-color: white;
+        color: black;
   }      
