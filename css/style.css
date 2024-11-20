@@ -54,7 +54,8 @@ footer{
     .navbar a {
       float: none;
       display: block;
-      width: 100%;
+      width: 98%;
       text-align: left; 
+      border-radius: 5px;
     }
   }      
