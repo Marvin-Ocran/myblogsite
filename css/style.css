@@ -10,7 +10,7 @@ header {
 /* Style the navigation menu */
 .navbar {
     
-    background-color: rgb(108, 22, 22);
+    background-color: rgb(56, 56, 56);
     overflow: auto;
     display: list-item;
     float: left;
