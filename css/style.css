@@ -41,7 +41,7 @@ header {
 .navbar a.active {
     background-color: rgb(45,45,45);
     color: white;
-    
+    width: 20%;
 }
 
 footer{
