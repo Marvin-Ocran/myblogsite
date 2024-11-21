@@ -39,7 +39,7 @@ header {
   
   /* Style the current/active link */
 .navbar a.active {
-    background-color: rgb(56,56,57);
+    background-color: rgb(45,45,45);
     color: white;
     
 }
