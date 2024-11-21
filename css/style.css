@@ -27,7 +27,7 @@ header {
     text-decoration: none;
     font-size: 17px;
     display: flexbox;
-    width: 15.73vw;
+    width: 25%;
     text-align: center; 
 }
   
@@ -53,7 +53,7 @@ footer{
     .navbar a {
       float: none;
       display: block;
-      width: 94%;
+      width: 94.5%;
       text-align: left; 
       border-radius: 5px;
       margin-bottom: 10px;
