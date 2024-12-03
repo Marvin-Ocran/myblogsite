@@ -44,6 +44,20 @@ header {
     width: 18.5%;
 }
 
+#article-list ul{
+  list-style: none;
+  color: white;
+  text-decoration: underline;
+}
+#article-list li{
+  display: inline;
+}
+#article-list a.active{
+  background-color: aliceblue;
+  color: black;
+  border-radius: 10px;
+}
+
 footer{
     background-color: rgb(45, 45, 45);
     color: white;
@@ -63,3 +77,4 @@ footer{
         color: black;
         width: 94.5%;
   }      
+}
