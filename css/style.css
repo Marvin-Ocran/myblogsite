@@ -3,6 +3,7 @@ body{
 }
 header { 
     color: white;
+   
 }
 .main {
     color: white;
@@ -15,7 +16,7 @@ header {
     display: list-item;
     float: left;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 5%;
  
 }
   
@@ -43,6 +44,7 @@ header {
     color: white;
     width: 18.5%;
 }
+
 
 
 footer{
