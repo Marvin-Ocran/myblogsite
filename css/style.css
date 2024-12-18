@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: rgb(45, 45, 45) /* Dark background for the navbar */
+  background-color: rgb(45, 45, 45); 
 }
 
 main{
@@ -15,26 +15,26 @@ main{
 
 .navbar {
   display: flex;
-  justify-content: space-around; /* Evenly space out the links */
-  padding: 10px ; /* Add some vertical spacing */
+  justify-content: space-around; 
+  padding: 10px ; 
 }
 
 .navbar a {
-  color: white; /* Default link color */
-  text-decoration: none; /* Remove underline */
-  padding: 10px 20px; /* Add padding for clickable area */
-  border-radius: 5px; /* Slightly round the edges */
-  transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+  color: white; 
+  text-decoration: none; 
+  padding: 10px 20px; 
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 .navbar a:hover {
-  background-color: rgb(56, 56, 56); /* Background color on hover */
+  background-color: rgb(56, 56, 56); 
   width: 24%;
 }
 
 .navbar a.active {
-  background-color: #3b3a3a ;/* Highlight current item */
-  color: white; /* Ensure text contrast */
+  background-color: #3b3a3a ;
+  color: white; 
   width: 50%;
   text-align: center;
 }
@@ -43,35 +43,30 @@ main{
         /* Mobile Styles */
         @media (max-width: 500px) {
           .navbar {
-              flex-direction: column; /* Stack links vertically */
-              align-items: center; /* Center align links */
-              padding: 0; /* Remove extra padding */
+              flex-direction: column; 
+              align-items: center; 
+              padding: 0; 
           }
 
           .navbar a {
-              display: block; /* Make each link take full width */
-              width: 100%; /* Ensure links span the width of the screen */
-              text-align: center; /* Center the text */
-              padding: 15px 0; /* Add padding for touch-friendly navigation */
-              border-bottom: 1px solid #444; /* Add separators between links */
-          }
+              display: block; 
+              width: 100%; 
+              text-align: center; 
+              padding: 15px 0; 
+              border-bottom: 1px solid #444; 
 
           .navbar a.active {
+            background-color: #444;
             width: 100%;
+
           }
 
           .navbar a:last-child {
-              border-bottom: none; /* Remove the border from the last link */
+              border-bottom: none; 
           }
       }
-
-
-footer{
-    background-color: rgb(45, 45, 45);
-    color: white;
-    position: fixed;
-    left: 0;
-    bottom: 0;
 }
+
+
 
 
